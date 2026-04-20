@@ -3,6 +3,10 @@ A personal curriculum website for concentrating information about me.
 
 # --- Project Structure ---
 ```
+├── en-us/
+│   └── <name>.html        # HTML files for english version
+├── pt-br/
+│   └── <name>.html        # HTML files for portuguese version
 ├── static/                # Static files
 │   ├── source.js          # Javascript visual code
 │   └── img/               # Images for use in the project         
