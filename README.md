@@ -1,4 +1,6 @@
 # Languages
+[![English](https://img.shields.io/badge/lang-eglish-blue)](READMEs/README.en-us.md)
+[![Português](https://img.shields.io/badge/lang-português-green)](READMEs/README.pt-br.md)
 
 ## --- Licensing ---
 [MIT License](https://github.com/J4g3rWulf/personal-curriculum/blob/main/LICENSE)
