@@ -1,22 +1,13 @@
-# Personal Curriculum
-A personal curriculum website for concentrating information about me.
-
-## --- Project Structure ---
-```
-├── en-us/
-│   └── <name>.html        # HTML files for english version
-├── pt-br/
-│   └── <name>.html        # HTML files for portuguese version
-├── static/                # Static files
-│   ├── source.js          # Javascript visual code
-│   └── img/               # Images for use in the project         
-├── .gitignore             # Files to ignore in Git
-├── LICENSE                # Project license
-├── READMEs/
-│   ├── README.pt-br.md    # README in portuguese
-│   └── README.en-us.md    # README in english  
-└── README.md              # Main README file for the project
-```
+# Languages
 
 ## --- Licensing ---
-MIT License
+[MIT License](https://github.com/J4g3rWulf/personal-curriculum/blob/main/LICENSE)
+
+## --- Copyrights ---
+
+This project uses [Bootstrap Icons](https://icons.getbootstrap.com/), which are
+licensed under the [MIT License](https://github.com/twbs/icons/blob/main/LICENSE).
+
+This project uses [Flag Icons](https://github.com/lipis/flag-icons), which are
+licensed under the [MIT License](https://github.com/lipis/flag-icons?tab=MIT-1-ov-file).
+
