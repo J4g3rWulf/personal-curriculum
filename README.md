@@ -1,7 +1,7 @@
 # Personal Curriculum
 A personal curriculum website for concentrating information about me.
 
-# --- Project Structure ---
+## --- Project Structure ---
 ```
 ├── en-us/
 │   └── <name>.html        # HTML files for english version
@@ -18,5 +18,5 @@ A personal curriculum website for concentrating information about me.
 └── README.md              # Main README file for the project
 ```
 
-# --- Licensing ---
+## --- Licensing ---
 MIT License
