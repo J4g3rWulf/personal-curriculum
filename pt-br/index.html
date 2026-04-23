@@ -13,10 +13,23 @@
     <title>Inicial</title>
 </head>
 
-<body style="background-color: var(--dark-gray);">
+<body class="bg-dark">
     <nav class="navbar navbar-expand-lg bg-black" style="width: 100vw; top: 0;">
-        <div class="container-fluid">
-            <a class="navbar-brand text-white align-items-center" href="index.html"><i class="bi bi-house pe-2"></i>Inicial</a>
+        <div class="container-fluid align-items-center py-1">
+            <a class="navbar-brand text-white" href="index.html"><i class="bi bi-house pe-2"></i>Inicial</a>
+            <!-- Drowdown de linguagens -->
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Language
+                </button>
+
+                <ul class="dropdown-menu dropdown-menu-end mt-1">
+                    <li><a class="dropdown-item disabled" href="index.html"><i class="fi fi-br"></i> Português</i></a></li>
+                    <li><a class="dropdown-item" href="../en-us/index.html"><i class="fi fi-us"></i> Inglês</a></li>
+                </ul>
+
+            </div>
+
         </div>
         
     </nav>
