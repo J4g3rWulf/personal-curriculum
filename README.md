@@ -1,5 +1,5 @@
 # Languages
-[![English](https://img.shields.io/badge/lang-english-blue)](READMEs/README.en-us.md)\\
+[![English](https://img.shields.io/badge/lang-english-blue)](READMEs/README.en-us.md) | 
 [![Português](https://img.shields.io/badge/lang-português-green)](READMEs/README.pt-br.md)
 
 ## --- Licensing ---
