@@ -17,4 +17,4 @@
 ```
 
 ## --- Languages ---
-[![Português](https://img.shields.io/badge/lang-português-green)](READMEs/README.pt-br.md)
+[![Português](https://img.shields.io/badge/lang-português-green)](README.pt-br.md)
