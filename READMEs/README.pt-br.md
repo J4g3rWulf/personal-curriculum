@@ -15,3 +15,6 @@
 │   └── README.en-us.md    # README in english  em inglês
 └── README.md              # Arquivo README principal
 ```
+
+** --- Linguagens  ---
+[![English](https://img.shields.io/badge/lang-english-blue)](READMEs/README.en-us.md)
