@@ -1,3 +1,11 @@
+:root {
+    --eletric-pink: #F00592;
+    --black: #010400;
+    --darg-gray: #333630;
+    --pearl-blue: #7CC5CB;
+    --white: #FFFBFC;
+}
+
 html {
     font-size: 16px;
 }
