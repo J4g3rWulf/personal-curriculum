@@ -1,9 +1,9 @@
 ## --- Estrutura do Projeto ---
 ```
-├── en-us/
-│   └── <name>.html        # Arquivos HTML em inglês
 ├── pt-br/
-│   └── <name>.html        # Arquivos HTML em português
+│   └── <nome>.html        # Arquivos HTML em inglês
+├── pt-br/
+│   └── <nome>.html        # Arquivos HTML em português
 ├── static/                # Arquivos estáticos
 │   ├── source.js          # Código visual em Javascript
 │   ├── style.css          # Configurações gerais de CSS
