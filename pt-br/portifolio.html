@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap Import -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- Flag Icons Import -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />   
-    <!-- Bootstrap Icons Import -->   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
+    <!-- Bootstrap Icons Import -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../static/style.css">
     <title>Portifólio</title>
@@ -24,22 +26,81 @@
             </div>
             <!-- Drowdown de linguagens -->
             <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
                     Linguagens
                 </button>
 
                 <ul class="dropdown-menu dropdown-menu-end mt-1">
-                    <li><a class="dropdown-item disabled" href="portifolio.html"><i class="fi fi-br"></i> Português</i></a></li>
+                    <li><a class="dropdown-item disabled" href="portifolio.html"><i class="fi fi-br"></i>
+                            Português</i></a></li>
                     <li><a class="dropdown-item" href="../en-us/portfolio.html"><i class="fi fi-us"></i> Inglês</a></li>
                 </ul>
 
             </div>
 
         </div>
-        
+
     </nav>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <section class="container-fluid text-white py-5 w-50">
+        <h2 class="fw-bold text-center mb-5">
+            Meus Projetos
+        </h2>
+
+        <div class="accordion" id="myAccordion">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="horusProjectHeader">
+                    <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#horusProject" aria-expanded="false" aria-controls="horusProject">
+                        Projeto Hórus
+                    </button>
+                </h2>
+                <div id="horusProject" class="accordion-collapse collapse" aria-labelledby="horusProjectHeader"
+                    data-bs-parent="#myAccordion">
+                    <div class="accordion-body bg-secondary text-white">
+                        This is the content of the first accordion item.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="pythonERPheader">
+                    <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#pythonERP" aria-expanded="false" aria-controls="pythonERP">
+                        ERP em Python
+                    </button>
+                </h2>
+                <div id="pythonERP" class="accordion-collapse collapse" aria-labelledby="pythonERPheader"
+                    data-bs-parent="#myAccordion">
+                    <div class="accordion-body bg-secondary text-white">
+                        This is the content of the second accordion item.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="TCCheading">
+                    <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#TCC" aria-expanded="false" aria-controls="TCC">
+                        Trabalho de Conclusão de Curso
+                    </button>
+                </h2>
+                <div id="TCC" class="accordion-collapse collapse" aria-labelledby="TCCheading"
+                    data-bs-parent="#myAccordion">
+                    <div class="accordion-body bg-secondary text-white">
+                        This is the content of the third accordion item.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

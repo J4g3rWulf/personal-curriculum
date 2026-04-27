@@ -11,6 +11,17 @@ body {
     display: block;
 }
 
-div, nav, section{
+.navbar {
     display: flex;
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-black);
+    background-color: var(--bs-info);
+}
+
+.accordion-button {
+    color: var(--bs-info);
+    background-color: var(--bs-dark);
 }
