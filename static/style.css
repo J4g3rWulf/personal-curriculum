@@ -1,5 +1,6 @@
 :root {
     --eletric-pink: #F00592;
+    --darker-pink: #A80466;
     --pearl-blue: #7CC5CB;
 }
 
@@ -18,10 +19,30 @@ body {
 
 .accordion-button:not(.collapsed) {
     color: var(--bs-black);
-    background-color: var(--bs-info);
+    background-color: var(--darker-pink);
+    font-weight: bold;
 }
 
 .accordion-button {
-    color: var(--bs-info);
+    color: var(--eletric-pink);
     background-color: var(--bs-dark);
+}
+
+/* Pink bootstrap-like colors */
+.text-pink {
+    color: var(--eletric-pink) !important;
+    border-color: var(--eletric-pink) !important;
+}
+
+.text-pink-subtle {
+    color: var(--darker-pink) !important;
+    border-color: var(--darker-pink) !important;
+}
+
+.bg-pink {
+    background-color: var(--eletric-pink) !important;
+}
+
+.bg-pink-subtle {
+    background-color: var(--darker-pink);
 }
