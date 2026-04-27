@@ -44,13 +44,13 @@
 
     </nav>
 
-    <section class="container-fluid text-white py-5 w-50">
+    <section class="container-fluid text-white py-5">
         <h2 class="fw-bold text-center mb-5">
             My Projects
         </h2>
 
-        <div class="accordion" id="myAccordion">
-
+        <div class="accordion w-50 mx-auto" id="myAccordion">
+        <!-- 1st Item-->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="horusProjectHeader">
                     <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </div>
-
+        <!-- 2nd Item-->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="pythonERPheader">
                     <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
@@ -80,7 +80,7 @@
                     </div>
                 </div>
             </div>
-
+        <!-- 3rd Item-->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="TCCheading">
                     <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
@@ -89,6 +89,21 @@
                     </button>
                 </h2>
                 <div id="TCC" class="accordion-collapse collapse" aria-labelledby="TCCheading"
+                    data-bs-parent="#myAccordion">
+                    <div class="accordion-body bg-secondary text-white">
+                        This is the content of the third accordion item.
+                    </div>
+                </div>
+            </div>
+            <!-- 4th Item-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="personalCurriculumHeading">
+                    <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#personalCurriculum" aria-expanded="false" aria-controls="personalCurriculum">
+                        Personal Curriculum Website
+                    </button>
+                </h2>
+                <div id="personalCurriculum" class="accordion-collapse collapse" aria-labelledby="personalCurriculumHeading"
                     data-bs-parent="#myAccordion">
                     <div class="accordion-body bg-secondary text-white">
                         This is the content of the third accordion item.
