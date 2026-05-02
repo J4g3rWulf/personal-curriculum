@@ -20,9 +20,13 @@ body {
 
 
 .accordion-button:not(.collapsed) {
-    color: var(--bs-black);
+    color: var(--bs-white);
     background-color: var(--darker-pink);
     font-weight: bold;
+}
+
+.accordion-button:not(.collapsed)::after {
+  filter: invert(100%);
 }
 
 .accordion-button {
