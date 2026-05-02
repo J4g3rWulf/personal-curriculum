@@ -1,6 +1,6 @@
 :root {
     --eletric-pink: #F00592;
-    --darker-pink: #A80466;
+    --darker-pink: #60023A;
     --pearl-blue: #7CC5CB;
 }
 
@@ -52,4 +52,14 @@ body {
 .bi-github:hover, .bi-linkedin:hover {
     padding-bottom: 0.4rem;
     border-bottom: 2px solid white;
+}
+
+/* Fixing the Dropdown Menu Background on Hover */
+.dropdown-menu a:hover {
+    background-color: var(--bs-dark);
+}
+
+.dropdown-menu {
+    background-color: var(--bs-black);
+    border: 1px solid var(--bs-light);
 }
