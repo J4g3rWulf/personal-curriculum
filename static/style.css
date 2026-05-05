@@ -42,7 +42,7 @@ ul {
     background-color: var(--bs-dark);
 }
 
-/*---- Pink bootstrap-like colors ----*/
+/*---- Pink bootstrap-like pink ----*/
 .text-pink {
     color: var(--eletric-pink) !important;
     border-color: var(--eletric-pink) !important;
@@ -61,7 +61,8 @@ ul {
     background-color: var(--darker-pink);
 }
 
-.bi-github:hover, .bi-linkedin:hover {
+/*---- Hover rule on index icons ----*/
+.social-media-link .bi-github:hover, .social-media-link .bi-linkedin:hover {
     padding-bottom: 0.4rem;
     border-bottom: 2px solid white;
 }
