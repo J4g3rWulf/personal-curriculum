@@ -43,14 +43,63 @@
 
     </nav>
 
-    <section
-        class="container-fluid text-white py-5 h-50 bg-black bg-gradient d-flex flex-column justify-content-center">
-        <h1 class="fw-bold text-center fs-1 pb-5">
+    <section class="container-fluid text-white py-5  bg-black bg-gradient d-flex flex-column justify-content-center">
+        <h1 class="fw-bold text-center fs-1 pb-4">
             Projetos
         </h1>
 
-        <div class="accordion w-50 mx-auto" id="myAccordion">
-            <!-- 1 Item-->
+        
+        <div class="accordion w-50 mx-auto pb-5" id="myAccordion">
+
+            <!-- 1° Item-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="Horusheading">
+                    <button class="accordion-button collapsed d-flex fs-5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#Horus" aria-expanded="false" aria-controls="Horus">
+                        <p class="m-0 flex-grow-1">Projeto Horus</p>
+                        <p class="my-0 me-2 text-end">2024</p>
+                    </button>
+                </h2>
+                <!-- Corpo -->
+                <div id="Horus" class="accordion-collapse collapse" aria-labelledby="Horusheading"
+                    data-bs-parent="#myAccordion">
+                    <div class="accordion-body bg-secondary text-white d-flex flex-column">
+                        <!-- Parte principal -->
+                        <div class="container-fluid d-flex flex-row justify-content-between ps-0">
+                            <p class="m-0">
+                                This is the content of the third accordion item.
+                            </p>
+
+                            <div class="pe-2">
+                                <h4 class="m-0 ps-3">
+                                    Learned Skills
+                                </h4>
+                                <ul class="pt-3 pb-1 m-0">
+                                    <li>
+                                        Habilidade 1
+                                    </li>
+
+                                    <li>
+                                        Habilidade A
+                                    </li>
+
+                                    <li>
+                                        Habilidade 2
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Links do projeto -->
+                        <div class="container-fluid ps-0">
+                            <a href="" target="_blank">
+                                <i class="fs-5 text-white bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2° Item-->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="TCCheading">
                     <button class="accordion-button collapsed d-flex fs-5" type="button" data-bs-toggle="collapse"
@@ -98,7 +147,7 @@
                 </div>
             </div>
 
-            <!-- 2° Item-->
+            <!-- 3° Item-->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="personalCurriculumHeading">
                     <button class="accordion-button collapsed d-flex fs-5" type="button" data-bs-toggle="collapse"
