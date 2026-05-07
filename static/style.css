@@ -61,10 +61,10 @@ ul {
     background-color: var(--darker-pink);
 }
 
-/*---- Hover rule on index icons ----*/
-.social-media-link .bi-github:hover, .social-media-link .bi-linkedin:hover {
-    padding-bottom: 0.4rem;
-    border-bottom: 2px solid white;
+/*---- Hover rule on footer icons ----*/
+footer a:hover {
+    padding-bottom: 0.1rem;
+    border-bottom: 1px solid white;
 }
 
 /*---- Fixing the Dropdown Menu Background on Hover ----*/
