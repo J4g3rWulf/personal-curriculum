@@ -45,12 +45,12 @@ ul {
 /*---- Pink bootstrap-like pink ----*/
 .text-pink {
     color: var(--eletric-pink) !important;
-    border-color: var(--eletric-pink) !important;
+    border-color: var(--eletric-pink);
 }
 
 .text-pink-subtle {
     color: var(--darker-pink) !important;
-    border-color: var(--darker-pink) !important;
+    border-color: var(--darker-pink);
 }
 
 .bg-pink {
@@ -59,6 +59,14 @@ ul {
 
 .bg-pink-subtle {
     background-color: var(--darker-pink);
+}
+
+.border-pink {
+    border-color: var(--eletric-pink) !important;
+}
+
+.border-pink-subtle {
+    border-color: var(--darker-pink) !important;
 }
 
 /*---- Hover rule on footer icons ----*/
