@@ -16,11 +16,11 @@ body {
 
 /*---- Simple animation to load the whole page ----*/
 @keyframes fadeInPage {
-  from { opacity: 0; }
+  from { opacity: 0.2; }
   to { opacity: 1; }
 }
 body {
-  animation: fadeInPage 1s forwards;
+  animation: fadeInPage 0.4s  ease-out forwards;
 }
 
 ul {
