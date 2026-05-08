@@ -1,3 +1,5 @@
+## --- Project Idea ---
+
 ## --- Project Structure ---
 ```
 ├── en-us/
@@ -17,4 +19,4 @@
 ```
 
 ## --- Languages ---
-[![Português](https://img.shields.io/badge/lang-português-green)](README.pt-br.md)
+[![Portuguese](https://img.shields.io/badge/lang-português-green)](README.pt-br.md)

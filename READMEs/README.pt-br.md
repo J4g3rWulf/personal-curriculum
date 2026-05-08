@@ -1,6 +1,8 @@
+## --- Idéia do Projeto ---
+
 ## --- Estrutura do Projeto ---
 ```
-├── pt-br/
+├── en-us/
 │   └── <nome>.html        # Arquivos HTML em inglês
 ├── pt-br/
 │   └── <nome>.html        # Arquivos HTML em português
@@ -12,9 +14,9 @@
 ├── LICENSE                # Licença do projeto
 ├── READMEs/
 │   ├── README.pt-br.md    # README em português
-│   └── README.en-us.md    # README in english  em inglês
+│   └── README.en-us.md    # README in em inglês
 └── README.md              # Arquivo README principal
 ```
 
 ## --- Linguagens  ---
-[![English](https://img.shields.io/badge/lang-english-blue)](README.en-us.md)
+[![Inglês](https://img.shields.io/badge/lang-english-blue)](README.en-us.md)
