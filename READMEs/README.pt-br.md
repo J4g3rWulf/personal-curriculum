@@ -19,4 +19,4 @@
 ```
 
 ## --- Linguagens  ---
-[![Inglês](https://img.shields.io/badge/lang-english-blue)](README.en-us.md)
+[![Inglês](https://img.shields.io/badge/lang-inglês-blue)](README.en-us.md)

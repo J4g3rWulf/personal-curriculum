@@ -19,4 +19,4 @@
 ```
 
 ## --- Languages ---
-[![Portuguese](https://img.shields.io/badge/lang-português-green)](README.pt-br.md)
+[![Portuguese](https://img.shields.io/badge/lang-portuguese-green)](README.pt-br.md)
