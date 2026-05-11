@@ -29,26 +29,6 @@ ul {
     display: flex;
 }
 
-/*---- Accordion related rules ----*/
-.accordion-button:not(.collapsed) {
-    color: var(--bs-white);
-    background-color: var(--darker-pink);
-    font-weight: bold;
-}
-
-.accordion-button::after {
-  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F00592'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
-}
-
-.accordion-button.accordion-button:not(.collapsed)::after {
-  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFFFFF'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
-}
-
-.accordion-button {
-    color: var(--eletric-pink);
-    background-color: var(--bs-dark);
-}
-
 /*---- Pink bootstrap-like pink ----*/
 .text-pink {
     color: var(--eletric-pink) !important;
@@ -93,6 +73,12 @@ footer a:hover {
 }
 
 /*---- Trajectory section accordion ----*/
+.accordion-button:not(.collapsed) {
+    color: var(--bs-white);
+    background-color: var(--darker-pink);
+    font-weight: bold;
+}
+
 .trajectory .accordion-button::after {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2360023A'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
 }
@@ -104,4 +90,10 @@ footer a:hover {
 .trajectory .accordion-header, .trajectory .accordion-item, .trajectory .accordion-body, .trajectory .accordion-button{
     border: none;
     box-shadow: none;
+}
+
+/*---- Carousel configuration ----*/
+.carousel-control-prev, .carousel-control-next {
+  top: auto;          /* remove default vertical centering */
+  bottom: 20px;       /* align with indicators */
 }

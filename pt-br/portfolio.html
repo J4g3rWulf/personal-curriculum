@@ -45,204 +45,157 @@
 
     </nav>
 
-    <section class="container-fluid text-white py-5  bg-black bg-gradient d-flex flex-column justify-content-center">
+    <section
+        class="container-fluid text-white py-5 bg-black bg-gradient d-flex flex-column align-items-center justify-content-between">
+        <!-- Project Section -->
         <h1 class="fw-bold text-center fs-1 pb-4">
             Projetos
         </h1>
 
-
-        <div class="accordion w-50 mx-auto pb-5" id="myAccordion">
-
-            <!-- 1° Item-->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="Horusheading">
-                    <button class="accordion-button collapsed d-flex fs-5" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#Horus" aria-expanded="false" aria-controls="Horus">
-                        <p class="m-0 flex-grow-1">Projeto Horus</p>
-                        <p class="my-0 me-2 text-end">2024</p>
-                    </button>
-                </h2>
-                <!-- Corpo -->
-                <div id="Horus" class="accordion-collapse collapse" aria-labelledby="Horusheading"
-                    data-bs-parent="#myAccordion">
-                    <div class="accordion-body bg-secondary text-white d-flex flex-column">
-                        <!-- Parte principal -->
-                        <div class="container-fluid d-flex flex-row justify-content-between ps-0">
-                            <p class="m-0">
-                                This is the content of the third accordion item.
-                            </p>
-
-                            <div class="pe-2">
-                                <h4 class="m-0 ps-3">
-                                    Learned Skills
-                                </h4>
-                                <ul class="pt-3 pb-1 m-0">
-                                    <li>
-                                        Habilidade 1
-                                    </li>
-
-                                    <li>
-                                        Habilidade A
-                                    </li>
-
-                                    <li>
-                                        Habilidade 2
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Links do projeto -->
-                        <div class="container-fluid ps-0">
-                            <a href="" target="_blank">
-                                <i class="fs-5 text-white bi bi-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+        <!-- Portfolio Carousel -->
+        <div id="carouselExampleCaptions" class="carousel slide w-75">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
 
-            <!-- 2° Item-->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="recyclePlusHeading">
-                    <button class="accordion-button collapsed d-flex fs-5" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#recyclePlus" aria-expanded="false" aria-controls="recyclePlus">
-                        <p class="m-0 flex-grow-1">Recicla<span class="fs-4">+</span></p>
-                        <p class="my-0 me-2 text-end">2025</p>
-                    </button>
-                </h2>
-                <!-- Corpo -->
-                <div id="recyclePlus" class="accordion-collapse collapse" aria-labelledby="recyclePlusHeading"
-                    data-bs-parent="#myAccordion">
-                    <div class="accordion-body bg-secondary text-white d-flex flex-column">
-                        <!-- Parte principal -->
-                        <div class="container-fluid d-flex flex-row justify-content-between ps-0">
-                            <p class="m-0">
-                                This is the content of the third accordion item.
-                            </p>
-
-                            <div class="pe-2">
-                                <h4 class="m-0 ps-3">
-                                    Learned Skills
+            <div class="carousel-inner mb-5 py-5">
+                <!-- Carousel Item -->
+                <div class="carousel-item active">
+                    <div class="d-flex flex-column px-5">
+                        <div class="d-flex flex-row justify-content-between">
+                            <div class="d-flex flex-column w-75 carousel-text">
+                                <h4 class="fw-bold">
+                                    Name
                                 </h4>
-                                <ul class="pt-3 pb-1 m-0">
-                                    <li>
-                                        Habilidade 1
-                                    </li>
 
-                                    <li>
-                                        Habilidade A
-                                    </li>
-
-                                    <li>
-                                        Habilidade 2
-                                    </li>
-                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolore, placeat
+                                    autem ipsa quos enim laudantium ex voluptatibus, ipsum earum perspiciatis eligendi?
+                                    Alias tempore dicta voluptatibus. Facere, laborum. Molestias, labore?
+                                </p>
                             </div>
+
+                            <div class="d-flex flex-column kill-list">
+                                <h5 class="fw-bold">
+                                    Skills Learned
+                                </h5>
+
+                                <ul class="ps-3">
+                                    <li>item1</li>
+                                    <li>item2</li>
+                                    <li>item3</li>
+                                </ul>
+
+                            </div>
+
                         </div>
-                        <!-- Links do projeto -->
-                        <div class="container-fluid ps-0">
-                            <a href="" target="_blank">
-                                <i class="fs-5 text-white bi bi-github"></i>
+
+                        <div class="d-flex">
+                            <a href="" class="pt-1" target="_blank">
+                                <i class="fs-5 bi text-white bi-github"></i>
                             </a>
                         </div>
+
                     </div>
+
                 </div>
-            </div>
 
-            <!-- 3° Item-->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="TCCheading">
-                    <button class="accordion-button collapsed d-flex fs-5" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#TCC" aria-expanded="false" aria-controls="TCC">
-                        <p class="m-0 flex-grow-1">Trabalho de Conclusão de Curso</p>
-                        <p class="my-0 me-2 text-end">2025</p>
-                    </button>
-                </h2>
-                <!-- Corpo -->
-                <div id="TCC" class="accordion-collapse collapse" aria-labelledby="TCCheading"
-                    data-bs-parent="#myAccordion">
-                    <div class="accordion-body bg-secondary text-white d-flex flex-column">
-                        <!-- Parte principal -->
-                        <div class="container-fluid d-flex flex-row justify-content-between ps-0">
-                            <p class="m-0">
-                                This is the content of the third accordion item.
-                            </p>
-
-                            <div class="pe-2">
-                                <h4 class="m-0 ps-3">
-                                    Learned Skills
+                <!-- Carousel Item -->
+                <div class="carousel-item">
+                    <div class="d-flex flex-column px-5">
+                        <div class="d-flex flex-row justify-content-between">
+                            <div class="d-flex flex-column w-75 carousel-text">
+                                <h4 class="fw-bold">
+                                    Name
                                 </h4>
-                                <ul class="pt-3 pb-1 m-0">
-                                    <li>
-                                        Habilidade 1
-                                    </li>
 
-                                    <li>
-                                        Habilidade A
-                                    </li>
-
-                                    <li>
-                                        Habilidade 2
-                                    </li>
-                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolore, placeat
+                                    autem ipsa quos enim laudantium ex voluptatibus, ipsum earum perspiciatis eligendi?
+                                    Alias tempore dicta voluptatibus. Facere, laborum. Molestias, labore?
+                                </p>
                             </div>
+
+                            <div class="d-flex flex-column kill-list">
+                                <h5 class="fw-bold">
+                                    Skills Learned
+                                </h5>
+
+                                <ul class="ps-3">
+                                    <li>item1</li>
+                                    <li>item2</li>
+                                    <li>item3</li>
+                                </ul>
+
+                            </div>
+
                         </div>
-                        <!-- Links do projeto -->
-                        <div class="container-fluid ps-0">
-                            <a href="https://github.com/J4g3rWulf/solid-dollop" target="_blank">
-                                <i class="fs-5 text-white bi bi-github"></i>
+
+                        <div class="d-flex">
+                            <a href="" class="pt-1" target="_blank">
+                                <i class="fs-5 bi text-white bi-github"></i>
                             </a>
                         </div>
+
                     </div>
+
                 </div>
-            </div>
 
-            <!-- 4° Item-->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="personalCurriculumHeading">
-                    <button class="accordion-button collapsed d-flex fs-5" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#personalCurriculum" aria-expanded="false" aria-controls="personalCurriculum">
-                        <p class="m-0 flex-grow-1">Site de Currículo de Pessoal</p>
-                        <p class="my-0 text-end me-2">2026</p>
-                    </button>
-                </h2>
-                <!-- Corpo -->
-                <div id="personalCurriculum" class="accordion-collapse collapse"
-                    aria-labelledby="personalCurriculumHeading" data-bs-parent="#myAccordion">
-                    <div class="accordion-body bg-secondary text-white d-flex flex-column">
-                        <div class="container-fluid d-flex flex-row justify-content-between ps-0">
-                            <p class="m-0">
-                                This is the content of the third accordion item.
-                            </p>
-
-                            <div class="pe-2">
-                                <h4 class="m-0 ps-3">
-                                    Learned Skills
+                <!-- Carousel Item -->
+                <div class="carousel-item">
+                    <div class="d-flex flex-column px-5">
+                        <div class="d-flex flex-row justify-content-between">
+                            <div class="d-flex flex-column w-75 carousel-text">
+                                <h4 class="fw-bold">
+                                    Name
                                 </h4>
-                                <ul class="pt-3 pb-1 m-0">
-                                    <li>
-                                        Skill 1
-                                    </li>
 
-                                    <li>
-                                        Skill A
-                                    </li>
-
-                                    <li>
-                                        Skill 2
-                                    </li>
-                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolore, placeat
+                                    autem ipsa quos enim laudantium ex voluptatibus, ipsum earum perspiciatis eligendi?
+                                    Alias tempore dicta voluptatibus. Facere, laborum. Molestias, labore?
+                                </p>
                             </div>
+
+                            <div class="d-flex flex-column kill-list">
+                                <h5 class="fw-bold">
+                                    Skills Learned
+                                </h5>
+
+                                <ul class="ps-3">
+                                    <li>item1</li>
+                                    <li>item2</li>
+                                    <li>item3</li>
+                                </ul>
+
+                            </div>
+
                         </div>
-                        <!-- Links do projeto -->
-                        <div class="container-fluid ps-0">
-                            <a href="https://github.com/J4g3rWulf/personal-curriculum" target="_blank">
-                                <i class="fs-5 text-white bi bi-github"></i>
+
+                        <div class="d-flex">
+                            <a href="" class="pt-1" target="_blank">
+                                <i class="fs-5 bi text-white bi-github"></i>
                             </a>
                         </div>
+
                     </div>
+
                 </div>
+
             </div>
+
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
     </section>
@@ -250,7 +203,7 @@
     <!-- Trajectory Section -->
     <section class="bg-pink-subtle py-5 d-flex flex-column" id="trajectory">
         <h3 class="text-white text-center fw-bold fs-1 pb-5">
-            Trajectory
+            Trajetória
         </h3>
 
         <div class="accordion accordion-flush w-50 mx-auto py-2 trajectory border-top border-bottom border-3"
