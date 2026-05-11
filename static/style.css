@@ -8,19 +8,17 @@ html {
     font-size: 16px;
 }
 
-body {
-    display: block;
-    height: 100vh;
-    width: 100vw;
-}
-
 /*---- Simple animation to load the whole page ----*/
 @keyframes fadeInPage {
   from { opacity: 0.2; }
   to { opacity: 1; }
 }
+
 body {
-  animation: fadeInPage 0.4s  ease-out forwards;
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    animation: fadeInPage 0.6s  ease-out forwards;
 }
 
 ul {
