@@ -8,9 +8,9 @@ html {
     font-size: 16px;
 }
 
-/*---- Simple animation to load the whole page ----*/
+/*---- Simple animation to load something ----*/
 @keyframes fadeInPage {
-  from { opacity: 0.4; }
+  from { opacity: 0.2; }
   to { opacity: 1; }
 }
 
@@ -29,7 +29,7 @@ ul {
     display: flex;
 }
 
-/*---- Pink bootstrap-like pink ----*/
+/*---- Pink bootstrap-like pink and pink-subtle ----*/
 .text-pink {
     color: var(--eletric-pink) !important;
     border-color: var(--eletric-pink);
@@ -94,6 +94,6 @@ footer a:hover {
 
 /*---- Carousel configuration ----*/
 .carousel-control-prev, .carousel-control-next {
-  top: auto;          /* remove default vertical centering */
-  bottom: 20px;       /* align with indicators */
+  top: auto;
+  bottom: 20px;
 }
