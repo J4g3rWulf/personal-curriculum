@@ -79,6 +79,7 @@ footer a:hover {
     font-weight: bold;
 }
 
+/*-- Accordion arrow color --*/
 .trajectory .accordion-button::after {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2360023A'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
 }
@@ -91,6 +92,26 @@ footer a:hover {
     border: none;
     box-shadow: none;
 }
+
+/*--Accordion line on left side --*/
+.accordion-button, .accordion-button:not(.collapsed), .accordion-body {
+    border-left: 2px solid var(--bs-white) !important;
+    position: relative;
+}
+
+/*-- Decorative white circle on each button --*/
+.accordion-button:before, .accordion-button:not(.collapsed):before {
+    content: "";
+    position: absolute;
+    left: -0.45rem;   /* Adjust horizontal position */
+    top: 50%;       /* Center vertically */
+    transform: translateY(-50%);
+    width: 12px;    /* Circle size */
+    height: 12px;
+    background-color: white;
+    border-radius: 50%; /* Makes it a circle */
+}
+
 
 /*---- Carousel configuration ----*/
 .carousel-control-prev, .carousel-control-next {
