@@ -106,10 +106,10 @@ footer a:hover {
     left: -0.45rem;   /* Adjust horizontal position */
     top: 50%;       /* Center vertically */
     transform: translateY(-50%);
-    width: 12px;    /* Circle size */
+    width: 12px;
     height: 12px;
     background-color: white;
-    border-radius: 50%; /* Makes it a circle */
+    border-radius: 50%;
 }
 
 
