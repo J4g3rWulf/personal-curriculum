@@ -100,17 +100,26 @@ footer a:hover {
 }
 
 /*-- Decorative white circle on each button --*/
-.accordion-button:before, .accordion-button:not(.collapsed):before {
+@keyframes toggleCircle {
+    from {width: 10px; height: 10px; left: -0.4rem;}
+    to {width: 14px; height: 14px;left: -0.5rem;}
+}
+
+.accordion-button:before {
     content: "";
     position: absolute;
-    left: -0.45rem;   /* Adjust horizontal position */
+    left: -0.4rem;   /* Adjust horizontal position */
     top: 50%;       /* Center vertically */
     transform: translateY(-50%);
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     background-color: white;
     border-radius: 50%;
 }
+
+ .accordion-button:not(.collapsed):before {
+    animation: toggleCircle 0.25s forwards;
+ }
 
 
 /*---- Carousel configuration ----*/
