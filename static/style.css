@@ -127,3 +127,8 @@ footer a:hover {
   top: auto;
   bottom: 20px;
 }
+
+.carousel-item a {
+    text-decoration: none;
+    color: var(--eletric-pink);
+}
