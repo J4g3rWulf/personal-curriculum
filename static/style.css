@@ -2,6 +2,7 @@
     --eletric-pink: #F00592;
     --darker-pink: #60023A;
     --pearl-blue: #7CC5CB;
+    --bootstrap-purple: #8312FA;
 }
 
 html {
@@ -29,10 +30,15 @@ ul {
     display: flex;
 }
 
-/*---- Pink bootstrap-like pink and pink-subtle ----*/
+/*---- Bootstrap=styled pink and purple ----*/
 .text-pink {
     color: var(--eletric-pink) !important;
     border-color: var(--eletric-pink);
+}
+
+.text-purple {
+    color: var(--bootstrap-purple) !important;
+    border-color: var(--bootstrap-purple);
 }
 
 .text-pink-subtle {
