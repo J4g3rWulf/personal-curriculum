@@ -111,6 +111,11 @@ footer a:hover {
     to {width: 14px; height: 14px;left: -0.5rem;}
 }
 
+@keyframes toggleCircleMobile {
+    from {width: 10px; height: 10px; left: -0.35rem;}
+    to {width: 14px; height: 14px;left: -0.45rem;}
+}
+
 .accordion-button:before {
     content: "";
     position: absolute;
@@ -123,15 +128,21 @@ footer a:hover {
     border-radius: 50%;
 }
 
+.accordion-button:not(.collapsed):before {
+    animation: toggleCircle 0.25s forwards ease-out;
+}
+
+/*--Button animation on mobile--*/
 @media (max-width: 800px) {
     .accordion-button::before {
         left: -0.35rem;
     }
+
+    .accordion-button:not(.collapsed):before {
+        animation: toggleCircleMobile 0.15s forwards ease-out;
+    }
 }
 
-.accordion-button:not(.collapsed):before {
-    animation: toggleCircle 0.25s forwards;
-}
 
 
 /*---- Carousel configuration ----*/
