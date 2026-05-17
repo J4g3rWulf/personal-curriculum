@@ -123,9 +123,15 @@ footer a:hover {
     border-radius: 50%;
 }
 
- .accordion-button:not(.collapsed):before {
+@media (max-width: 800px) {
+    .accordion-button::before {
+        left: -0.35rem;
+    }
+}
+
+.accordion-button:not(.collapsed):before {
     animation: toggleCircle 0.25s forwards;
- }
+}
 
 
 /*---- Carousel configuration ----*/
