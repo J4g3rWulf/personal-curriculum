@@ -1,4 +1,6 @@
 ## --- Idéia do Projeto ---
+Inspirado por um projeto para uma matéria de faculdade, a idéia é que o site pessoal consiga consolidar informações sobre minha experiência 
+profissional e habilidades práticas em um lugar, ao invés de estarem espalhados entre plataformas como o github, linkedin, etc
 
 ## --- Estrutura do Projeto ---
 ```

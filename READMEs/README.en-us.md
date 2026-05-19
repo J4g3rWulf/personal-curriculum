@@ -1,4 +1,6 @@
 ## --- Project Idea ---
+Inspired by a project for a college class, the ideas is that the personal website can consolidate and centralize 
+professional experience and pratical knowledge in one place, instead of being spread throughout github, linkeding, etc.
 
 ## --- Project Structure ---
 ```
