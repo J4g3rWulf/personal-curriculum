@@ -5,11 +5,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const copyright = "©";
     element.textContent = `@${year} | Davi Millan Alves`;
 
-     // Restore the carousel active index
+    // Restore the carousel active index
     const indiceSalvo = localStorage.getItem("carouselIndex");
     if (indiceSalvo !== null) {
         const carrossel = new bootstrap.Carousel("#projectsCarousel");
         carrossel.to(parseInt(indiceSalvo, 10));
+    } else {
+        // If user is in first access
+        const primeiroSlide = document.querySelector("#projectsCarousel .carousel-item");
+        if (primeiroSlide) {
+            primeiroSlide.classList.add("active");
+        }
     }
 
     // Save active index for when language changes
