@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     element.textContent = `@${year} | Davi Millan Alves`;
 
     // Restore the carousel active index
-    const indiceSalvo = localStorage.getItem("carouselIndex");
+    const indiceSalvo = sessionStorage.getItem("carouselIndex");
     if (indiceSalvo !== null) {
         const carrossel = new bootstrap.Carousel("#projectsCarousel");
         carrossel.to(parseInt(indiceSalvo, 10));
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (carrossel) {
                 const indiceAtivo = Array.from(carrossel.querySelectorAll(".carousel-item"))
                     .findIndex(el => el.classList.contains("active"));
-                localStorage.setItem("carouselIndex", indiceAtivo);
+                sessionStorage.setItem("carouselIndex", indiceAtivo);
             }
         });
     });

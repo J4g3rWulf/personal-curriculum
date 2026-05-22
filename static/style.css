@@ -30,6 +30,11 @@ ul {
     display: flex;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 /*---- Bootstrap=styled pink and purple ----*/
 .text-pink {
     color: var(--eletric-pink) !important;
@@ -78,11 +83,32 @@ footer a:hover {
     border: 1px solid var(--bs-light);
 }
 
-/*---- Trajectory section accordion ----*/
+/*---- Experience section accordion ----*/
+.accordion-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .accordion-button:not(.collapsed) {
     color: var(--bs-white);
     background-color: var(--darker-pink);
     font-weight: bold;
+}
+
+/*--Year of experience that appears when clicked--*/
+
+.accordion-subtitle {
+    margin: 0;
+    padding: 0 0 0 0.4rem;
+    display: block;
+    color: var(--darker-pink);
+}
+
+.accordion-button:not(.collapsed) .accordion-subtitle {
+    color: var(--bs-white);
+    font-weight: lighter;
+    transition: color 0.45s ease-out   ;
 }
 
 /*-- Accordion arrow color --*/
