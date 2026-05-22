@@ -84,6 +84,12 @@ footer a:hover {
 }
 
 /*---- Experience section accordion ----*/
+.accordion-button, .accordion-header {
+    border: none;
+    box-shadow: none;
+    background-color: inherit;
+}
+
 .accordion-button {
     display: flex;
     flex-direction: row;
@@ -109,6 +115,20 @@ footer a:hover {
     color: var(--bs-white);
     font-weight: lighter;
     transition: color 0.45s ease-out   ;
+}
+
+/*--Techstack description configuration--*/
+.techstack {
+    font-size: 0.8rem;
+    opacity: 90%;
+    font-style: italic;
+}
+
+/*--Configuration of accordion-body links--*/
+.accordion-body a {
+    color: var(--bs-warning);
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 /*-- Accordion arrow color --*/
