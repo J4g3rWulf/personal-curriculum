@@ -3,6 +3,7 @@
     --darker-pink: #60023A;
     --pearl-blue: #7CC5CB;
     --bootstrap-purple: #8312FA;
+    --tensorflow-orange: #FF6F00;
 }
 
 html {
@@ -44,6 +45,11 @@ p {
 .text-purple {
     color: var(--bootstrap-purple) !important;
     border-color: var(--bootstrap-purple);
+}
+
+.text-orange {
+    color: var(--tensorflow-orange) !important;
+    border: var(--tensorflow-orange);
 }
 
 .text-pink-subtle {
