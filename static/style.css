@@ -120,7 +120,7 @@ footer a:hover {
 .accordion-button:not(.collapsed) .accordion-subtitle {
     color: var(--bs-white);
     font-weight: lighter;
-    transition: color 0.45s ease-out   ;
+    transition: color 0.5s ease-out   ;
 }
 
 /*--Techstack description configuration--*/
