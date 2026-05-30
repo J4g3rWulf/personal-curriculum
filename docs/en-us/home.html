@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Import do CSS do Bootstrap-->
+    <!-- Bootstrap Import -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <!-- Import dos Icones de Bandeira -->
+    <!-- Flag Icons Import -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
-    <!-- Import de Icones do Bootstrap -->
+    <!-- Bootstrap Icons Import -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <!-- CSS e Javascript customizado -->
+    <!-- Custom CSS and Javascript -->
     <link rel="stylesheet" href="../static/style.css">
     <script src="../static/source.js" defer></script>
     <title>Davi Alves</title>
@@ -21,27 +21,26 @@
     <nav class="navbar navbar-expand bg-black">
         <div class="container-fluid py-1">
             <div class="navbar-nav">
-                <a href="index.html" class="nav-link text-pink fs-5"><i
-                        class="bi bi-house pe-1 secondary"></i>Inicial</a>
-                <a href="portfolio.html" class="nav-link text-white fs-5">Portfólio</a>
+                <a href="home.html" class="nav-link fs-5 text-pink disabled"><i class="bi bi-house pe-1"></i>Home</a>
+                <a href="portfolio.html" class="nav-link text-white fs-5">Portfolio</a>
 
             </div>
-            <!-- Drowdown de linguagens -->
+            <!-- Language Dropdown -->
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
-                    Linguagens
+                    Languages
                 </button>
 
-                <ul class="dropdown-menu dropdown-menu-end mt-1 bg-light-subtl">
+                <ul class="dropdown-menu dropdown-menu-end mt-1">
                     <li>
-                        <a class="dropdown-item disabled text-secondary" href="index.html">
-                            <i class="fi fi-br"></i> Português
+                        <a class="dropdown-item text-pink" href="../pt-br/home.html">
+                            <i class="fi fi-br"></i> Portuguese
                         </a>
                     </li>
                     <li>
-                        <a class="dropdown-item text-pink" href="../en-us/index.html">
-                            <i class="fi fi-us"></i> Inglês
+                        <a class="dropdown-item disabled text-secondary" href="home.html">
+                            <i class="fi fi-us"></i> English
                         </a>
                     </li>
                 </ul>
@@ -53,27 +52,26 @@
     </nav>
 
     <section class="bg-black bg-gradient py-5 d-flex flex-column">
-        <div class="container-fluid d-flex flex-column flex-md-row justify-content-center mx-md-auto">
+        <div class="container-fluid d-flex flex-column flex-md-row justify-content-center mx-auto">
             <img src="../static/img/github_profile.jpg" alt="Profile Image" class="object-fit-cover mx-2 mx-md-0 me-md-4 col-md-3">
             <div class="mt-auto mx-md-0 mx-4 col-md-7 ">
                 <h2 class="text-white pb-2 fw-bold ps-0 pt-md-0 pt-5">
                     Davi Millan Alves
                 </h2>
 
-                <p class="h5 text-pink fs-6 fst-italic border-bottom border-pink py-2">
-                    DESEVOLVEDOR FULLSTACK
+                <p class="text-pink h5 fs-6 fst-italic py-2 border-bottom border-pink">
+                    FULLSTACK DEVELOPER
                 </p>
 
                 <p class="text-white fs-5">
-                    Sou Davi, desenvolvedor de software no Brasil, movido por uma curiosidade de longa data sobre como a
-                    tecnologia funciona por trás das cortinas.
-                    Essa curiosidade me levou a explorar desde os blocos de construção das APIs e as complexidades das
-                    redes neurais até a criatividade dos aplicativos
-                    móveis e do desenvolvimento de jogos. Você pode explorar esses projetos e acompanhar minha jornada
-                    de aprendizado na seção
-                    <a href="portfolio.html#experiences" class="text-pink text-decoration-none fw-bold">experiências</a>.
-                    Meus links de redes sociais estão disponíveis no rodapé, caso queira ver mais do que estou
-                    desenvolvendo.
+                    I'm Davi, a software developer based in Brazil, driven by a lifelong curiosity about how technology
+                    works beneath the surface. That curiosity has
+                    led me to explore everything from the building blocks of APIs and the intricacies of neural networks
+                    to the creativity of mobile applications and
+                    game development. You can explore these projects and follow my learning journey in the
+                    <a href="portfolio.html#experiences" class="text-pink fw-bolder text-decoration-none">experiences</a>
+                    section. My social media links are available in the footer if you'd like to see more of what I'm
+                    working on.
                 </p>
             </div>
 
@@ -81,11 +79,11 @@
 
     </section>
 
-    <!--Footer com links, copyright e disclaimer de privacidade-->
+    <!--Footer with copyright, links and privacy disclaimer-->
     <footer class="bg-black py-2 ps-5 container-fluid">
         <div class="row col-12 col-md-3">
             <h5 class="text-white fw-bolder pe-md-3 pt-3 fs-6 col-10 col-md-6" id="copyright"></h5>
-            <!--Links de rede social-->
+            <!-- Social Media Links -->
             <a href="https://github.com/J4g3rWulf" class="px-2 col-1" target="_blank">
                 <i class="fs-4 text-white bi bi-github"></i>
             </a>
@@ -95,12 +93,12 @@
             </a>
         </div>
 
-        <!--Disclaimer de coleta de dados-->
+        <!--Privacy disclaimer-->
         <div class="row col-12">
             <p class="text-white fst-italic" style="opacity: 75%;font-size: 11px;">
-                Este site é hosteado com Github Pages. Eu não coleto dados pessoais, dados técnicos podem ser coletados pela 
-                <a href="https://docs.github.com/pt/site-policy/privacy-policies/github-general-privacy-statement" target="_blank"
-                class="text-pink text-decoration-none fw-bolder border-pink">Política de Privacidade do Github</a>
+                This website is hosted on Github Pages. I do not collect any personal data, technical data may be collected by 
+                <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank"
+                class="text-pink text-decoration-none fw-bolder border-pink">Github's Privacy Policy</a>
             </p>
         </div>
 
