@@ -27,10 +27,6 @@ ul {
     list-style-type: square;
 }
 
-.navbar {
-    display: flex;
-}
-
 p {
     margin: 0;
     padding: 0;
@@ -71,6 +67,33 @@ p {
 
 .border-pink-subtle {
     border-color: var(--darker-pink) !important;
+}
+
+/*---- Navbar editing ----*/
+.navbar, .navbar-nav a {
+    display: flex;
+}
+
+.navbar-nav a {
+    border-bottom: 1px solid ;
+    border-color: black;
+}
+
+.navbar-nav a:hover {
+    border-color: inherit;
+    transition: border-color 0.3s ease-out;
+}
+
+@media (max-width: 576px) {
+    .navbar-nav a, .dropdown button{
+        font-size: 1rem !important;
+    }
+
+    .dropdown button {
+        display: flex;
+        align-items: center;
+        padding: 0.4rem 0.3rem;
+    }
 }
 
 /*---- Hover rule on footer icons ----*/
