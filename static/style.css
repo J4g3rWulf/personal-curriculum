@@ -99,7 +99,12 @@ p {
     }
 }
 
-/*---- Hover rule on footer icons ----*/
+/*---- Footer rules ----*/
+footer p {
+    font-size: 0.75rem;
+}
+
+/*-- Hover rule on footer icons --*/
 footer a:hover {
     padding-bottom: 0.1rem;
     border-bottom: 1px solid white;
