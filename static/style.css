@@ -4,10 +4,13 @@
     --pearl-blue: #7CC5CB;
     --bootstrap-purple: #8312FA;
     --tensorflow-orange: #FF6F00;
+    font-size: 16px;
 }
 
-html {
-    font-size: 16px;
+@media (max-width:576px) {
+    :root {
+        font-size: 14px;
+    }
 }
 
 /*---- Simple animation to load something ----*/
@@ -86,13 +89,13 @@ p {
 
 @media (max-width: 576px) {
     .navbar-nav a, .dropdown button{
-        font-size: 1rem !important;
+        font-size: 1.2rem !important;
     }
 
     .dropdown button {
         display: flex;
         align-items: center;
-        padding: 0.4rem 0.3rem;
+        padding: 0.1rem;
     }
 }
 
