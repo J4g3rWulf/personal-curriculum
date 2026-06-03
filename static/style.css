@@ -4,10 +4,13 @@
     --pearl-blue: #7CC5CB;
     --bootstrap-purple: #8312FA;
     --tensorflow-orange: #FF6F00;
+    font-size: 16px;
 }
 
-html {
-    font-size: 16px;
+@media (max-width:576px) {
+    :root {
+        font-size: 14px;
+    }
 }
 
 /*---- Simple animation to load something ----*/
@@ -25,10 +28,6 @@ body {
 
 ul {
     list-style-type: square;
-}
-
-.navbar {
-    display: flex;
 }
 
 p {
@@ -73,7 +72,39 @@ p {
     border-color: var(--darker-pink) !important;
 }
 
-/*---- Hover rule on footer icons ----*/
+/*---- Navbar editing ----*/
+.navbar, .navbar-nav a {
+    display: flex;
+}
+
+.navbar-nav a {
+    border-bottom: 1px solid ;
+    border-color: black;
+}
+
+.navbar-nav a:hover {
+    border-color: inherit;
+    transition: border-color 0.3s ease-out;
+}
+
+@media (max-width: 576px) {
+    .navbar-nav a, .dropdown button{
+        font-size: 1.2rem !important;
+    }
+
+    .dropdown button {
+        display: flex;
+        align-items: center;
+        padding: 0.1rem;
+    }
+}
+
+/*---- Footer rules ----*/
+footer p {
+    font-size: 0.75rem;
+}
+
+/*-- Hover rule on footer icons --*/
 footer a:hover {
     padding-bottom: 0.1rem;
     border-bottom: 1px solid white;
