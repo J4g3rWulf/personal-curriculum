@@ -3,7 +3,7 @@
 [![Português](https://img.shields.io/badge/lang-português-green)](READMEs/README.pt-br.md)
 
 ## --- Licensing ---
-[MIT License](https://github.com/J4g3rWulf/personal-curriculum/blob/main/LICENSE)
+[BSD-3 License](https://github.com/J4g3rWulf/personal-curriculum/blob/main/LICENSE)
 
 ## --- Copyrights ---
 
