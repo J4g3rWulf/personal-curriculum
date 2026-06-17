@@ -26,6 +26,14 @@ HTML, CSS e Javascript. O projeto deve ser atualizado futuramente a medida que n
 └── README.md              # Arquivo README principal
 ```
 
+## Tecnologias
+
+### Frontend
+- HTML 5
+- CSS
+- Bootstrap
+- Javascript
+
 <br/>
 
 [![Inglês](https://img.shields.io/badge/lang-inglês-blue)](README.en-us.md)\

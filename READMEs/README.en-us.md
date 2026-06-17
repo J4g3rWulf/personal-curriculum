@@ -26,6 +26,14 @@ HTML, CSS and Javascript. The project should be uptaded in the future when new e
 │   └── README.en-us.md    # README in english  
 └── README.md              # Main README file for the project
 ```
+## Techstack
+
+### Frontend
+- HTML 5
+- CSS
+- Bootstrap
+- Javascript
+
 
 <br/>
 
