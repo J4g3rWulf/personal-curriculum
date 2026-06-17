@@ -1,11 +1,13 @@
-## --- Idéia do Projeto ---
+# Idéia do Projeto
 Inspirado por um projeto para uma matéria de faculdade, a idéia é que o site pessoal consiga consolidar informações sobre minha experiência 
-profissional e habilidades práticas em um lugar, ao invés de estarem espalhados entre plataformas como o github, linkedin, etc.\
-<br />
+profissional e habilidades práticas em um lugar, ao invés de estarem espalhados entre plataformas como o github, linkedin, etc.
+
+<br/>
+
 O projeto também foi uma forma de praticar tecnologias de _frontend_ como o framework **Bootstrap** e **Bootstrap Icons** assim como tecnologias básicas como 
 HTML, CSS e Javascript. O projeto deve ser atualizado futuramente a medida que novas experiências profissionais ocorrem e projetos são desenvolvidos.
 
-## --- Estrutura do Projeto ---
+##  Estrutura do Projeto
 ```
 ├── en-us/
 │   └── <nome>.html        # Arquivos HTML em inglês
@@ -24,5 +26,15 @@ HTML, CSS e Javascript. O projeto deve ser atualizado futuramente a medida que n
 └── README.md              # Arquivo README principal
 ```
 
-## --- Linguagens  ---
-[![Inglês](https://img.shields.io/badge/lang-inglês-blue)](README.en-us.md)
+## Tecnologias
+
+### Frontend
+- HTML 5
+- CSS
+- Bootstrap
+- Javascript
+
+<br/>
+
+[![Inglês](https://img.shields.io/badge/lang-inglês-blue)](README.en-us.md)\
+[Voltar](../README.md)

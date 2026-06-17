@@ -1,12 +1,14 @@
-## --- Project Idea ---
+# Project Idea
 Inspired by a project for a college class, the ideas is that the personal website can consolidate and centralize 
-professional experience and pratical knowledge in one place, instead of being spread throughout github, linkeding, etc.\
-<br />
+professional experience and pratical knowledge in one place, instead of being spread throughout github, linkeding, etc.
+
+<br/>
+
 The project was also a way to pratice frontend technologies such as the **Bootstrap** framework and **Bootstrap Icons** as well as basic technologies such as 
 HTML, CSS and Javascript. The project should be uptaded in the future when new experiences happend and new projects are developed.
 
 
-## --- Project Structure ---
+## Project Structure
 ```
 ├── en-us/
 │   └── <name>.html        # HTML files for english version
@@ -24,6 +26,16 @@ HTML, CSS and Javascript. The project should be uptaded in the future when new e
 │   └── README.en-us.md    # README in english  
 └── README.md              # Main README file for the project
 ```
+## Techstack
 
-## --- Languages ---
-[![Portuguese](https://img.shields.io/badge/lang-portuguese-green)](README.pt-br.md)
+### Frontend
+- HTML 5
+- CSS
+- Bootstrap
+- Javascript
+
+
+<br/>
+
+[![Portuguese](https://img.shields.io/badge/lang-portuguese-green)](README.pt-br.md)\
+[Return](../README.md)
